@@ -19,7 +19,6 @@ class CreatePostsTable extends Migration
             $table->text('content');
             $table->text('image_url');
             $table->date('date');
-            $table->string('title');
             $table->timestamps();
         });
     }
